@@ -1,3 +1,64 @@
 body{
-    background-color: blue;
+   background-image: url (https://sourceonepartners.com/wp-content/uploads/2014/04/importance_Background_screening_resized.jpg );
+   background-repeat: no-reapeat;
+   background-attachment: fixed;
+   background-size: cover;
+   background-position: 50% 50%;
+   opacity: 0.4;
 }
+
+table{
+width: 70%;
+border: 2px solid black;
+border-collapse: collapse;
+margin-left: auto;
+margin-right: auto;
+}  
+
+tr:nth-child(even) {
+   border: 2px solid black;
+   background-color: black;
+   opacity: 0.6;
+   color: darkgoldenrod;
+   text-align : "center";
+}
+
+th {
+   border: 2px solid black;
+   text-align : "center";
+   color:crimson;
+}
+
+td {
+   border: 2px solid black;
+   padding: 8px;
+   text-align: center;
+}
+
+h1 {
+   text-align: center;
+   color:darkred ;
+}
+
+.welcome-text {
+   color: pink;
+   text-align: center;
+   font-style: italic;
+}
+
+.width-column {
+   width: 20%;
+}
+
+/* when you hover over the text, the color of the text changes for some columns from table table*/
+th[cursor]:hover {
+   cursor: pointer;
+   color: darkblue;
+}
+/* when you hover over the text, the color of the text changes for text columns*/
+td:hover {
+   cursor: pointer;
+   color: darkviolet;
+   font-weight: bold;
+}
+
