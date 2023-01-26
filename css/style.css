@@ -1,26 +1,25 @@
-body{
-   background-image: url (https://sourceonepartners.com/wp-content/uploads/2014/04/importance_Background_screening_resized.jpg );
-   background-repeat: no-reapeat;
-   background-attachment: fixed;
-   background-size: cover;
-   background-position: 50% 50%;
-   opacity: 0.4;
+
+h1 {
+   text-align: center;
+   color: red ;
 }
 
 table{
 width: 70%;
-border: 2px solid black;
+border: 1px solid black;
 border-collapse: collapse;
 margin-left: auto;
 margin-right: auto;
+position: relative;
 }  
 
 tr:nth-child(even) {
    border: 2px solid black;
-   background-color: black;
+   background-color: blue;
    opacity: 0.6;
-   color: darkgoldenrod;
+   color: white;
    text-align : "center";
+ 
 }
 
 th {
@@ -35,13 +34,23 @@ td {
    text-align: center;
 }
 
-h1 {
-   text-align: center;
-   color:darkred ;
-}
-
+.image-opacity::before{
+   content: "";
+   background-image: url(https://sourceonepartners.com/wp-content/uploads/2014/04/importance_Background_screening_resized.jpg);
+      background-repeat: no-reapeat;
+      background-position: 50% 50%;
+      background-attachment: fixed;
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.35;
+   }
+   
 .welcome-text {
-   color: pink;
+   color: darkred;
    text-align: center;
    font-style: italic;
 }
@@ -58,7 +67,9 @@ th[cursor]:hover {
 /* when you hover over the text, the color of the text changes for text columns*/
 td:hover {
    cursor: pointer;
-   color: darkviolet;
+   color: coral;
    font-weight: bold;
+   text-decoration-line: underline;  
 }
+
 
