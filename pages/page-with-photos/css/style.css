@@ -1,3 +1,30 @@
+ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   background-color: #333;
+ }
+ 
+ li {
+   float: left;
+ }
+ 
+ li a{
+   display: block;
+   color: white;
+   /* border: 1px solid black;
+   border-collapse: collapse; */
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: blue;
+ }
+ 
+ li a:hover {
+   background-color: darkblue;
+   /* text-decoration-line: underline;  
+   font-weight: bold; */
+ }
 
 h1 {
    text-align: center;
@@ -34,7 +61,21 @@ td {
    text-align: center;
 }
 
+p {
+   text-align: left;
+   color:blueviolet ;
+   text-align: justify;
+   margin-left: 80px;
+   font-size: large;
+}
+
+.active {
+   background-color: #04AA6D;
+ }
+
+
 .image-opacity::before{
+   z-index: -1;
    content: "";
    background-image: url(https://sourceonepartners.com/wp-content/uploads/2014/04/importance_Background_screening_resized.jpg);
       background-repeat: no-reapeat;
@@ -46,7 +87,7 @@ td {
       right: 0px;
       bottom: 0px;
       left: 0px;
-      opacity: 0.35;
+      opacity: 0.35; 
    }
    
 .welcome-text {
@@ -72,4 +113,12 @@ td:hover {
    text-decoration-line: underline;  
 }
 
-
+.img{
+    display:inline-block;
+   width:33%;
+   background-repeat: no-reapeat;
+   background-position: 33% 33% 33%;
+   background-size: cover;
+   position: relative;
+   
+}
