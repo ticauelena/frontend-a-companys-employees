@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <!-- <script src="js/conditionalOperatorIF.js"></script> -->
+    <!-- <script src="js/conditionalOperatorSWITCH.js"> </script> -->
+    <!-- <script src="js/loop.js"></script> -->
 </head>
 <body >
     <div class = "image-opacity">
@@ -16,6 +19,27 @@
     <!-- <h1> Hello world </h1> -->
     <h1  class="welcome-text"> Welcomme to company management board </h1>
     <h1 > Employees Company </h1>
+    
+    <!-- Day of the week  switch and function-->
+    <script src="js/conditionalOperatorSWITCH.js"> </script>
+    <script src="js/function.js"> </script>
+    <form>
+        Select the number of day:
+        <select id="n">
+          <option></option>
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+          <option>6</option>
+          <option>7</option>
+        </select>
+        <button type="button" onclick="weekFunction()"> Day of the week is: </button> 
+        <p id="week"></p>
+    </form>
+
+      
     <table>
         <tr> 
             <th> Id </th>
@@ -116,6 +140,7 @@
             <td> 4 </td>
         </tr>
     </table>
+
 </div>
 </body>
 </html>
