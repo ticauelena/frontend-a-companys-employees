@@ -1,4 +1,4 @@
-var student = {};
+let student = {};
 student.firstName = 'John';
 student.lastName = 'Smith';
 student.averageScore = 8.7;
